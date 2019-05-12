@@ -1,11 +1,10 @@
-{
-  "development": {
-    "username": "root",
-    "password": "Bootcamp1!?",
-    "database": "delidb",
-    "host": "localhost",
-    "dialect": "mysql"
-  },
+"development": {
+  "username": "xdde20a7dim3fdr3",
+  "password": "moxfquy5y6r6g42t",
+  "database": "n106bjddamw6cbur",
+  "host": "q68u8b2buodpme2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  "dialect": "mysql"
+},
   "test": {
     "username": "root",
     "password": null,

@@ -1,0 +1,104 @@
+Variable Name Changes.
+
+In config.json and schema.sql (comment out testdb since we will not be using it).
+
+	Database name change:
+
+	Old name:   New name:
+
+	exampledb   delidb DONE
+
+In example.js:
+
+	File name change (the reason for it is because menu item is a dish that could either be on menu or orders page).
+
+	Old name:	New name:
+
+	example.js	dish.js
+
+	Variable name change:
+
+	Old name:	New name:
+
+	Example		Dish
+
+In index.js (come back):
+
+	The following variable names should be changed:
+
+	Old name:		New name:
+
+	$exampleText		$dishText
+
+	$exampleDescription	$dishDescription
+
+	$exampleList		$dishList
+
+	example			dish
+
+	refreshExamples		refreshDishes
+
+	$examples		$dishes
+
+	The following functions will be changed:
+
+	Old name:		New name:
+
+	saveExample		saveDish
+
+	getExamples		getDishes
+
+	deleteExample		deleteDish
+
+In apiRoutes.js, index.js, htmlRoutes.js, example.handlebars
+
+	The following route strings should be changed:
+
+	Old name:		New name:
+
+	"/api/examples"		"/api/dishes"
+
+	"/api/examples/:id"	"/api/dishes/:id"
+
+	Variable names:
+
+	Old name:		New name:
+
+	Example			Dish
+
+	dbExamples		dbDishes
+
+	dbExample		dbDish
+
+In example.handlebars, index.js, index.handlebars:
+
+	The following file name should be changed:
+
+	Old name:		New name:
+
+	example.handlebars	dish.handlebars
+
+	The following id names should be changed:
+
+	Old name:		New name:
+
+	example-list		dish-list
+
+	The following variable names should be changed:
+
+	Old name:		New name:
+
+	examples		dishes
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+

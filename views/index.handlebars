@@ -1,0 +1,59 @@
+<!-- This is web page for kitchen page. -->
+
+<div class="menu">
+  <br>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Tori's Deli
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/menu">Menu</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" href="/ready">Check Orders<span class="sr-only">(current)</span></a>
+          </li>
+          </ul>
+      </div>
+  </nav>
+
+  <h1 class="menu-title animated fadeInRight">Tori's Deli </h1>
+
+  <div id="card-wrap">
+
+    <div id="card-menu">
+
+      <div class="queued">
+          <h2 class="ordered-title">Crafting your order</h2>
+          <ul class="queued-orders">
+
+          {{#each dishes}}
+          {{#if this.ready}}
+          {{else}}
+            <li data-id="{{this.id}}" class="list-group-item">
+              <p>Order: {{this.text}} </p>
+              <p>Ticket # {{this.id}}</p>
+              <p>Time Ordered: {{moment this.createdAt "hh:mm a"}}</p>
+              <button class="btn btn-danger float-center ready">Ready!</button>
+            </li>
+            {{/if}}
+          {{/each}}
+          </ul>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->  
+<script src="/js/index.js"></script>

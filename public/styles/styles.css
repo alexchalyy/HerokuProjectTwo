@@ -1,0 +1,128 @@
+
+.menu-title{
+  background: black;
+  color: white;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.menu{
+  display: block;
+  width: 80%;
+  height:100%;
+  margin: -2rem auto 2rem;
+}
+
+.menu-wrap{
+  /* background: url(/images/background.jpg); */
+ 
+  height:100%;
+  width:100%;
+  padding-bottom:35px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#card-wrap{
+  margin-top:.5rem;
+  align-content: center;
+  border-width:5px;  
+  border-style: groove;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 5px 10px 18px #777;
+  border: 1px solid black;
+  display: inline-block;
+  margin: .75rem;
+}
+
+.card img{
+  height:250px;
+  width:100%;
+}
+
+.queued-orders {
+  padding:0;
+ 
+}
+
+.list-group-item{
+  margin: .25rem;
+  border-style: double;
+  border-width: 5px;
+  border-color: black;
+}
+ 
+.carousel.carousel-fade .carousel-item {
+  display: block;
+  opacity: 0;
+  transition: opacity ease-out 3s;
+  width: 100%
+}
+
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+}
+.indexBlock {
+  z-index: 999;
+  position: absolute;
+  top: 11rem;
+  left: 4rem;
+  width: 16rem;
+}
+
+.container-fluid {
+  margin-top: 1em;
+
+}
+
+.jumbotron {
+  background-image: url(deli1.jpg);
+  background-size: cover;
+  height: 300px;
+  margin: 2rem;
+}
+#jumboBody {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 1em;
+  border-style: double;
+  border-width: 5px;
+  border-color: white;
+  margin-top: -5%;
+}
+#jumboHeadline {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: -20%;
+}
+
+.carousel.carousel-fade .carousel-item {
+  display: block;
+  opacity: 0;
+  transition: opacity ease-out 5s;
+  width: 100%
+}
+
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+
+.indexBlock {
+  z-index: 999;
+  position: absolute;
+  top: 11rem;
+  left: 4rem;
+  width: 16rem;
+}

@@ -1,0 +1,104 @@
+Variable Name Changes.
+
+In config.json and schema.sql (comment out testdb since we will not be using it).
+
+	Database name change:
+
+	Old name:   New name:
+
+	exampledb   delidb
+
+In example.js:
+
+	File name change (the reason for it is because menu item is a MickeyMouse that could either be on menu or orders page).
+
+	Old name:	New name:
+
+	example.js	MickeyMouse.js
+
+	Variable name change:
+
+	Old name:	New name:
+
+	Example		MickeyMouse
+
+In index.js (come back):
+
+	The following variable names should be changed:
+
+	Old name:		New name:
+
+	$exampleText		$MickeyMouseText
+
+	$exampleDescription	$MickeyMouseDescription
+
+	$exampleList		$MickeyMouseList
+
+	example			MickeyMouse
+
+	refreshExamples		refreshMickeyMousees
+
+	$examples		$MickeyMousees
+
+	The following functions will be changed:
+
+	Old name:		New name:
+
+	saveExample		saveMickeyMouse
+
+	getExamples		getMickeyMousees
+
+	deleteExample		deleteMickeyMouse
+
+In apiRoutes.js, index.js, htmlRoutes.js, example.handlebars
+
+	The following route strings should be changed:
+
+	Old name:		New name:
+
+	"/api/examples"		"/api/MickeyMousees"
+
+	"/api/examples/:id"	"/api/MickeyMousees/:id"
+
+	Variable names:
+
+	Old name:		New name:
+
+	Example			MickeyMouse
+
+	dbExamples		dbMickeyMousees
+
+	dbExample		dbMickeyMouse
+
+In example.handlebars, index.js, index.handlebars:
+
+	The following file name should be changed:
+
+	Old name:		New name:
+
+	example.handlebars	MickeyMouse.handlebars
+
+	The following id names should be changed:
+
+	Old name:		New name:
+
+	example-list		MickeyMouse-list
+
+	The following variable names should be changed:
+
+	Old name:		New name:
+
+	examples		MickeyMousees
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+

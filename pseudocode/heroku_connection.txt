@@ -1,0 +1,26 @@
+Host	q68u8b2buodpme2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+
+Username	xdde20a7dim3fdr3
+
+Password	moxfquy5y6r6g42t
+
+Port	3306
+
+Database	n106bjddamw6cbur
+
+mysql://xdde20a7dim3fdr3:moxfquy5y6r6g42t@q68u8b2buodpme2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/n106bjddamw6cbur
+
+q68u8b2buodpme2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306
+
+n106bjddamw6cbur
+
+config.json should contain the following:
+
+  
+  "development": {
+    "username": "xdde20a7dim3fdr3",
+    "password": "moxfquy5y6r6g42t",
+    "database": "n106bjddamw6cbur",
+    "host": "q68u8b2buodpme2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }

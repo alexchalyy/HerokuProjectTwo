@@ -1,4 +1,4 @@
-//  This javascript performs all logic for making orders and picking them up on Deli website. Heroku paractice.
+//  This javascript performs all logic for making orders and picking them up on Deli website. Heroku paractice. test.
 
 var $dishText;
 
